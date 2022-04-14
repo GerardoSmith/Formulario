@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Web</title>
+    </head>
+   
+    <body>
+        <section>
+            <h1></h1>
+            <table align="center" bgcolor="" border="1" bordercolor="5" width="60%" cellspacing="5" cellpadding="15">
+                <tr bgcolor="blue">
+                    <td align="center" colspan="5" <b><FONT COLOR="yellow"><b><h1>Sistemas Informaticos</h1><h5><u><i>Registros de empleados</i></u></h5></b></td></FONT>
+                </tr> 
+                <tr align="center" bgcolor="blue">
+                    <td><form align="left" name="credenciales" action="Segunda pagina.html" method="get" autocomplete="on" <b><FONT COLOR="yellow"><FONT>
+                        <label for="Apellidos: ">Apellidos: </label>
+                        <input type="text" name="Apellidos" maxlength="30" required>
+                        <br>
+                        <label for="Nombres ">Nombres: </label>
+                        <input type="text" name="Nombres: " maxlength="30" required>
+                        <br>
+                        <label for="Edad: ">Edad: </label>
+                        <input type="text" name="Edad: " maxlength="2" required>
+                        <br>
+                        <label for="Fecha de nacimiento: ">Fecha de nacimiento: </label>
+                        <input type="date" name="bday">
+                        <br>
+                        <label for="No. DUI: ">No. DUI: </label>
+                        <input type="password" name="No. DUI">
+                        <br>
+
+                        <div>Estado Civil: 
+                            <label for="Soltero">Soltero</label>
+                            <input type="radio" id="Soltero" name="Estado Civil" value="Soltero">
+                            <label for="Casado">Casado</label>
+                            <input type="radio" id="Casado" name="Estado Civil" value="Casado">
+                            <label for="Viudo">Viudo</label>
+                            <input type="radio" id="Viudo" name="Estado Civil" value="Viudo">
+                            <label for="Acompañado">Acompañado</label>
+                            <input type="radio" id="Acompañado" name="Estado Civil" value="Acompañado">
+                            <label for="Divorciado">Divorciado</label>
+                            <input type="radio" id="Divorciado" name="Estado Civil" value="Divorciado">
+                        </div>
+
+                        <br>
+                        
+                        <div><b>Idiomas que manejas:</b> <br>
+                            <label for="Ingles">Ingles</label>
+                            <input type="checkbox" id="Ingles" name="idiomas" value="Ingles">
+                            <label for="Frances">Frances</label>
+                            <input type="checkbox" id="Frances" name="idiomas" value="Frances">
+                            <label for="Español">Español</label>
+                            <input type="checkbox" id="Español" name="idiomas" value="Español">
+                            <label for="Italiano">Italiano</label>
+                            <input type="checkbox" id="Italiano" name="idiomas" value="Italiano">
+                            <label for="Aleman">Aleman</label>
+                            <input type="checkbox" id="Aleman" name="idiomas" value="Aleman">
+                            <label for="Otro">Otro</label>
+                            <input type="checkbox" id="Otro" name="idiomas" value="Otro">
+                        </div>
+                        
+                        <br>
+                        
+                        <div> Profesion:<br>
+                            <select name="select">
+                                <option value="0">--Analista</option>
+                            </select>
+                        </div>
+                        
+                        <br>
+                        
+                        <div>Software que puedo usar: <br>
+                            <select name="select" size="2">
+                                <option value="0">--Microsoft Excel</option>
+                                <option value="1">--Microsoft Word</option>
+                                <option value="2">--Microsoft Acces</option>
+                            </select> 
+                        </div>
+                        
+                        <br>
+                        
+                        <textarea name="textarea" id="textarea"  cols="90" rows="10"  placeholder="Escriba sus comentarios"></textarea>
+                        <br>
+                        <div align="center">
+                        <input type="submit" value="Enviar datos">
+                        <input type="reset" value="Limpiar datos">
+                        </div>
+                    </form>
+                </tr>
+            </table>
+       </section>
+    </body>
+</html>
